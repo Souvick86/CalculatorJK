@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Orbitron&family=Playfair+Display&family=Playfair+Display+SC:wght@700&family=Roboto&display=swap');
+
+/* Default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #e0dddd;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+}
+
+.base-div {
+    width: 323.438px;
+    height: 640px;
+    margin: 100px auto;
+    border-radius: 45px;
+    background-color: #ebecf2;
+    box-shadow: #0000002e 15px 16px 20px;
+    flex-direction: column;
+}
+
+.screen {
+    width: 280.438px;
+    height: 265px;
+    margin: 0 auto;
+    border-radius: 16%;
+    background-color: rgb(0, 0, 0);
+}
+
+.screen-p {
+    color: white;
+    position: relative;
+    top: 120px;
+    font-size: 1.3rem;
+    word-break: break-all;
+}
+
+.row {
+    position: relative;
+    width: 285.438px;
+    height: 390px;
+    margin: -59px auto 0px;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+.row::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    border-radius: 10%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.button {
+    background-color: #f5f5f5;
+    margin: 7PX 3px 0;
+    border-radius: 33%;
+    border: 1px solid white;
+    box-shadow: 0 0 0 2px #ccc;
+    width: 55px;
+    height: 53px;
+}
+
+.button:hover {
+    background-color: #ea4c89;
+    color: white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.buttoncolor {
+    background-color: #ea4c89;
+    color: white;
+    box-shadow: 0 0 0 2px #ccc;
+}
+
+.button-width {
+    padding: 18px 56px;
+    border-radius: 15%;
+    box-shadow: 0 0 0 2px #ccc;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.switch {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;;
+}
